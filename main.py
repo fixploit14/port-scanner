@@ -3,10 +3,10 @@
 
 import socket
 
-text="Port Scanner"
+program="Port Scanner"
 
 print("-" * 35)
-print(f"{text:^35}")
+print(f"{program:^35}")
 print("-" * 35)
 
 ip_address = input("Enter IP address: ")
