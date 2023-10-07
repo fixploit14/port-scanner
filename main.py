@@ -7,11 +7,11 @@ program="Port Scanner"
 by="Created by fixploit14"
 github="Github: https://github.com/fixploit14/port-scanner"
 
-print("-" * 35)
-print(f"{program:^35}")
-print(f"{by:^35}")
-print(f"{github:^35}")
-print("-" * 35)
+print("-" * 70)
+print(f"{program:^70}")
+print(f"{by:^70}")
+print(f"{github:^70}")
+print("-" * 70)
 
 ip_address = input("Enter IP address: ")
 start_port = int(input("Enter start port: "))
