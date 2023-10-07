@@ -1,3 +1,5 @@
-# portscanner
+# Port Scanner 
 
-sebuah skrip sederhana yang ditulis dalam bahasa pemrograman python. tujuan utamanya adalah melakukan pemindaian (scanning) terhadap port-port yang terbuka pada alamat ip yang ditentukan oleh pengguna.
+A simple script written in the Python programming language. Its main purpose is to perform scanning on open ports at the IP address specified by the user.
+
+![](https://github.com/fixploit14/portscanner/blob/main/IMG_20231007_230103.jpg)
