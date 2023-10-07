@@ -10,14 +10,13 @@ print(f"{text:^35}")
 print("-" * 35)
 
 ip_address = input("Enter IP address: ")
-port_range = input("Enter the range of ports, separated by a hyphen (e.g., 80-443): ").split('-')
-port_start = int(port_range[0])
-port_end = int(port_range[1])
+start_port = int(input("Enter start port: "))
+end_port = int(input("Enter end port: "))
 
 socket.setdefaulttimeout(5)
 
 print("-" * 35)
-for port in range(port_start, port_end + 1):
+for port in range(start_port, end_port + 1):
     try:
         s = socket.socket(socket.AF_INET, socket.SOCK_STREAM)
         s.connect((ip_address, port))
