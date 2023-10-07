@@ -10,6 +10,7 @@ port_end = int(port_range[1])
 
 socket.setdefaulttimeout(5)
 
+print("-"*35)
 for port in range(port_start, port_end + 1):
     try:
         s = socket.socket(socket.AF_INET, socket.SOCK_STREAM)
@@ -18,3 +19,4 @@ for port in range(port_start, port_end + 1):
         s.close()
     except (socket.timeout, ConnectionRefusedError):
         pass
+print("-"*35)
