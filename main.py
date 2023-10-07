@@ -1,11 +1,14 @@
 # Port Scanner
 # Created by fixploit14
 
+import os
 import socket
 
 program="Port Scanner"
 by="Created by fixploit14"
 github="Github: https://github.com/fixploit14/port-scanner"
+
+os.system("clear")
 
 print("-" * 70)
 print(f"{program:^70}")
