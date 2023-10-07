@@ -4,9 +4,13 @@
 import socket
 
 program="Port Scanner"
+by="Created by fixploit14"
+github="Github: https://github.com/fixploit14/port-scanner
 
 print("-" * 35)
 print(f"{program:^35}")
+print(f"{by:^35}")
+print(f"{github:^35}")
 print("-" * 35)
 
 ip_address = input("Enter IP address: ")
