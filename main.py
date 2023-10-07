@@ -5,7 +5,7 @@ import socket
 
 program="Port Scanner"
 by="Created by fixploit14"
-github="Github: https://github.com/fixploit14/port-scanner
+github="Github: https://github.com/fixploit14/port-scanner"
 
 print("-" * 35)
 print(f"{program:^35}")
