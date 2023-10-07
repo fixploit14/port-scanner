@@ -24,7 +24,7 @@ for port in range(start_port, end_port + 1):
     try:
         s = socket.socket(socket.AF_INET, socket.SOCK_STREAM)
         s.connect((ip_address, port))
-        print(f"[+] Port {port} is open")
+        print(f"          [+] Port {port} is open")
         s.close()
     except (socket.timeout, ConnectionRefusedError):
         pass
