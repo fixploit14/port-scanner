@@ -30,5 +30,5 @@ for port in range(start_port, end_port + 1):
         print(f"          [+] Port {port} is open")
         s.close()
     except (socket.timeout, ConnectionRefusedError):
-        pass
+        print(f"          [+] Port {port} is closed")
 print("-" * 70)
